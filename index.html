@@ -17,9 +17,61 @@
   <!-- LINK AJAX -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
 
-  <title>Document</title>
+  <title>Progetto food</title>
 </head>
 <body>
+    <!-- HEADER -->
+    <header>
+      <!-- DIV PER VUE -->
+      <div id="root" class="container">
+        <div class="container_small">
+          <div class="header_sx">
+              <ul>
+                <li>Download app ios</li>
+                <li>Adverise with us</li>
+              </ul>
+            <div class="header_dx">
+              <ul>
+                <li>fb</li>
+                <li>in</li>
+                <li>tw</li>
+                <li>yo</li>
+              </ul>
+            </div>
+          </div>
+          <div class="logo">
+            <img src="img/avada-food-logo.png" alt="logo">
+          </div>
+
+          <div class="container_navbar">
+            <div class="navbar">
+              <div class="navbar_element" v-for="element in elements">
+                {{ element }}
+              </div>
+              <i class="fas fa-search"></i>
+            </div>
+          </div>
+          <!-- / CONTAINER NAVBAR -->
+        </div>
+        <!-- / CONTAINER SMALL -->
+        </header>
+        <!-- / HEADER -->
+        <!-- MAIN -->
+        <main>
+            <div class="jumbotron">
+              
+            </div>
+
+        </main>
+        <!-- / MAIN -->
+        <!-- FOOTER -->
+        <footer>
+
+        </footer>
+        <!-- / FOOTER -->
+      </div>
+  <!-- / DIV PER VUE -->
+
 
 
 
