@@ -48,9 +48,9 @@
   padding: 0px 10px;
 }
 
-.logo img{
+.logo {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .navbar{
@@ -107,6 +107,41 @@
 
 .text_center h3{
   padding-top: 15px;
+}
+
+.box{
+  width: 800px;
+  height: 400px;
+  background-color: red;
+  position: absolute;
+  top: 92%;
+  left: 50%;
+  transform: translateY(-92%);
+  transform: translateX(-50%);
+}
+
+.box .title{
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+}
+
+.box_img{
+  width: calc(100% / 3);
+  height: 200px;
+  float: right;
+  padding: 30px;
+
+}
+
+
+.box_img .description{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.box_img .date{
+  font-style: italic;
 }
 
 /* //////// MAIN */
