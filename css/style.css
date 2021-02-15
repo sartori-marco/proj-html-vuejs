@@ -76,9 +76,38 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  margin-top: 20px;
 }
 
+.text{
+  background-color: orange;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateY(-40%);
+  transform: translateX(-50%);
+  z-index: 1;
+}
 
+.text_center{
+  background-color: white;
+  width: 600px;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translateY(-42%);
+  transform: translateX(-50%);
+  padding: 50px;
+  text-align: center;
+}
+
+.text_center h3{
+  padding-top: 15px;
+}
 
 /* //////// MAIN */
 
