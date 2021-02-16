@@ -19,6 +19,7 @@
   padding: 5px 5px;
 }
 
+
 /* ///////// REGOLE GENERALI */
 
 /* HEADER */
@@ -112,7 +113,7 @@
 .box{
   width: 800px;
   height: 400px;
-  background-color: red;
+  background-color: #f6f7f1;
   position: absolute;
   top: 92%;
   left: 50%;
@@ -143,6 +144,93 @@
 .box_img .date{
   font-style: italic;
 }
+
+/* ///////// JUMBOTRON */
+
+.popular{
+  width: 800px;
+  margin: 0 auto;
+  background-color: red;
+  margin-top: 400px;
+
+}
+
+.title_section{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.sub_title{
+  padding: 20px;
+  text-align: center;
+}
+
+.centro{
+  width: 100%;
+  display: flex;
+}
+
+
+.popular_left{
+  width: calc(100% / 2);
+  background-color: yellow;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 10px;
+}
+
+.popular_left .content_text{
+  padding: 0 15px;
+}
+
+.popular_left .content_text h3{
+  font-size: 110%;
+}
+
+.popular_left .content_text h4{
+  font-size: 80%;
+  padding-top: 5px;
+}
+
+.popular_left .content_text p{
+  padding-top: 30px;
+}
+
+.popular_left button{
+  background-color: orange;
+  color: white;
+  padding: 5px 10px;
+  margin: 20px 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+
+
+.popular_right{
+  background-color: green;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.popular_right .immagini{
+  width: calc(100% / 2);
+  height: 100%;
+}
+
+
+
+.culinary{
+  width: 100%;
+  height: 300px;
+  background-color: violet;
+  margin-top: 500px;
+}
+
 
 /* //////// MAIN */
 
