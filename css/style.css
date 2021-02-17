@@ -268,8 +268,6 @@ body{
 
 .farm{
   width: 800px;
-  background-color: violet;
-  height: 650px;
   margin: 0 auto;
   margin-top: 50px;
   position: relative;
@@ -325,7 +323,13 @@ body{
   text-decoration: none;
   color: black;
   padding-left: 15px;
+  vertical-align: middle;
 }
+
+.farm_left a i{
+  font-size: 80%;
+}
+
 
 .farm_left .chat{
   position: absolute;
@@ -385,22 +389,36 @@ body{
 .social{
   width: 800px;
   margin: 0 auto;
-  margin-top: 150px;
   display: flex;
   justify-content: space-between;
 }
 
 .social_left{
   background-color: red;
-  height: 500px;
+
   width: calc(100% / 2 + 75px);
   display: flex;
   flex-wrap: wrap;
 }
 
 .social_box{
+  width: calc(100% / 2);
   padding-left: 20px;
+
 }
+
+.img_title{
+  text-align: center;
+
+}
+
+.img_subtitle{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
 
 .social_right{
   background-color: green;
