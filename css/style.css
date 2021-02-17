@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+
+body{
+  background-color: #f0eeeb;
+}
+
 .container{
   width: 100%;
   margin: 0 auto;
@@ -16,7 +21,9 @@
 
 .bg_orange{
   background-color: orange;
-  padding: 5px 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 10px;
 }
 
 
@@ -31,24 +38,26 @@
 .header_sx{
   display: flex;
   justify-content: space-between;
-  background-color: red;
 }
 
 .header_sx ul li{
   display: inline-block;
-  padding: 0px 10px;
 }
 
 
 .header_dx{
   display: flex;
   justify-content: flex-end;
-  background-color: green;
 }
 
 .header_dx ul li{
   display: inline-block;
   padding: 0px 10px;
+}
+
+.header_dx ul li i{
+  color: grey;
+  padding: 5px 5px;
 }
 
 .logo {
@@ -66,6 +75,12 @@
   width: 60%;
   margin: 0 auto;
 }
+
+.navbar_element:hover{
+  color: orange;
+  cursor: pointer;
+}
+
 
 /* ///////// HEADER */
 
@@ -114,7 +129,7 @@
 
 .box{
   width: 800px;
-  height: 400px;
+  height: 300px;
   background-color: #f6f7f1;
   position: absolute;
   top: 92%;
@@ -238,11 +253,10 @@
   flex-basis: calc(100% / 4 - 50px);
   height: 200px;
   background-color: white;
-  padding: 20px;
-  margin-bottom: 15px;
+  margin: 20px;
 }
 
-.icone .testo{
+.icone .testo {
   text-align: center;
   text-transform: uppercase;
   background-color: white;
@@ -480,16 +494,14 @@
 /* FOOTER */
 
 footer{
-  height: 500px;
-  margin-top: 25px;
-  background-color: red;
+  height: 450px;
+  padding-top: 50px;
   position: relative;
+  background-color: white;
 }
 
 .box_footer{
   width: 100%;
-  height: 300px;
-  background-color: yellow;
   display: flex;
 }
 
@@ -501,8 +513,7 @@ footer{
 
 .logo_footer{
   width: calc(100% / 4);
-  height: 300px;
-  background-color: orange;
+  border-right: 1px solid black;
 }
 
 .logo_footer img{
@@ -521,26 +532,50 @@ footer{
 
 .menu_footer{
   width: calc(100% / 4);
-  height: 300px;
-  background-color: green;
+  border-right: 1px solid black;
+  padding-left: 30px;
+}
+
+.menu_footer ul li{
+  list-style: none;
+  padding: 15px 0;
+
+}
+
+.menu_footer ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 110%;
 }
 
 .menu_contact{
   width: calc(100% / 4);
-  height: 300px;
-  background-color: purple;
+  border-right: 1px solid black;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.menu_contact ul li{
+  list-style: none;
+  padding: 15px 0;
 }
 
 .menu_contact i{
   vertical-align: middle;
+  padding-right: 5px;
 }
 
 
 .menu_app{
   width: calc(100% / 4);
-  height: 300px;
-  background-color: violet;
+  text-align: center;
 }
+
+.menu_app img{
+  padding: 5px;
+  cursor: pointer;
+}
+
 
 .torna{
   margin-left: 20px;
